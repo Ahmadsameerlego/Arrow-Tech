@@ -119,6 +119,9 @@ img {
   }
 }
 
+@media(max-width:768px){
+  .order-1 #carousel{display: none !important;}
+}
 @media (max-width: 1252px) {
   .active_tab,
   .inactive {

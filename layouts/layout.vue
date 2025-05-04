@@ -3,7 +3,7 @@
     :class="{ 'h-screen': isNavbarOpen, 'h-[1200px] p-[10px] bg-white': isNavbarOpen }">
     <!-- Navbar -->
     <nav class="h-full w-full p-2">
-      <div class="flex flex-wrap justify-between text-white py-4 mx-16">
+      <div class="flex flex-wrap justify-between text-white py-4 md:mx-16 mx-4">
         <div class="flex">
           <div class="px-2">
             <NuxtLink to="tel:+96612345678" class="text-right">201013746111</NuxtLink> <img class="inline" alt="Phone Icon" src="/phone_icon.png"/>

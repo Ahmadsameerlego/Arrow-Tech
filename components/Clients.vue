@@ -9,7 +9,7 @@
     data-wow-duration="1.3s"
     data-wow-delay="0s">
             <div v-for="item, i in items" :key="i">
-                <img :alt="item.name" :src="item.image"/>
+                <img :alt="item.name" class="w-[200px] h-[150px] mx-4" :src="item.image"/>
             </div>
         </div>
     </div>
@@ -17,32 +17,32 @@
 <script setup>
 const items = ref([
     {
-        image: '/logo1.png',
+        image: '/study.jpeg',
         name: "الاسم",
     },
     {
-        image: '/logo2.png',
+        image: '/p3.jpg',
         name: "الاسم",
     },
-    {
-        image: '/logo3.png',
-        name: "الاسم",
-    },
-    {
-        image: '/logo4.png',
-        name: "الاسم",
-    },
-    {
-        image: '/logo5.png',
-        name: "الاسم",
-    },
-    {
-        image: '/logo6.png',
-        name: "الاسم",
-    },
-    {
-        image: '/logo7.png',
-        name: "الاسم",
-    },
+    // {
+    //     image: '/logo3.png',
+    //     name: "الاسم",
+    // },
+    // {
+    //     image: '/logo4.png',
+    //     name: "الاسم",
+    // },
+    // {
+    //     image: '/logo5.png',
+    //     name: "الاسم",
+    // },
+    // {
+    //     image: '/logo6.png',
+    //     name: "الاسم",
+    // },
+    // {
+    //     image: '/logo7.png',
+    //     name: "الاسم",
+    // },
 ])
 </script>
